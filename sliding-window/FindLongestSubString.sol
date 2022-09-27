@@ -10,7 +10,7 @@ contract FindLongestSubString {
 
     // how to calculate the length of a string -> too complicated
 
-    // only define mapping as global variable??
+    // only define mapping as global variable?? -> yes
     mapping(string => uint256) private seen; 
 
     function main(string[] memory s) public returns (uint256) {
